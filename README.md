@@ -1,2 +1,9 @@
 # My-Portfolio-Responsive-Version
-It's my portfolio made using basic frontend techniques-> @HTML, @CSS, @Bootstrap  The portfolio is best viewed in desktop, mobile mode.
+
+
+It's my portfolio made using basic frontend techniques-><br>
+@HTML,<br>
+@CSS,<br>
+@Bootstrap <br>
+
+The portfolio is best viewed in mobile and desktop mode.

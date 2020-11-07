@@ -1,0 +1,263 @@
+/* Intro CSS */
+.header-mobile
+{
+    display:none;
+}
+
+
+body
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.dp
+{
+    border-radius: 100%;
+    border: 0.5rem solid#c77b5e;
+    min-height: 180px;
+    min-width: 180px;
+    max-height: 180px;
+    max-width: 180px;  
+}
+.dp:hover
+{
+    transform: scale(1.8);
+}
+.intro
+{
+    display: flex;
+    flex-direction: row;
+}
+.header-list
+{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 70px;
+    padding-left:30px;
+    list-style-type:none;
+    text-emphasis: none;
+    text-align: center;
+    background-color: #bd5d38;
+    color:white;
+    font-family:  "Lucida Console", Courier, monospace;
+}
+.header-list .list-items
+{
+    list-style-type:none; 
+    
+}
+.header-list .list-items a
+{
+    text-decoration: none;
+}
+.header-list .list-items a .list-item
+{
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: large;
+}
+.header-list .list-items .list-item:hover
+{
+    font-weight: 700;
+}
+.header-list .list-items .list-item:active
+{
+    font-weight: 700;
+}
+
+.about
+{
+    align-items: center;
+}
+.intro .about p
+{
+    font-family:  "Lucida Console", Courier, monospace;   
+    color: #747070;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.intro .about h1
+{
+    font-family:  "Lucida Console", Courier, monospace;
+    color: #bd5d38;
+    font-size: 70px;
+    margin-top: 150px;
+    margin-left: 40px;
+    line-height: 1.5em;  
+    font-weight: 700;
+}
+.social-icons
+{
+    margin-left: 40px;
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.social-icons .social-icon:hover
+{
+    background-color: #08325c;
+}
+
+
+/* Education-CSS */
+.intro .education
+{
+    font-family:  "Lucida Console", Courier, monospace;
+    color: #747070;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+.intro .education h2
+{
+    color: black;
+    font-size: 50px;
+    
+}
+.intro .education h3
+{
+    display: inline;
+    color: black;
+    font-size: 30px;
+    
+}
+.intro .education h4
+{
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.intro .education p
+{
+    margin-left: 130px;
+    display: inline;
+    color: red;
+    text-align: justify;
+}
+.intro .education a
+{
+    text-decoration: none;
+}
+.intro .education h3:hover
+{
+    color:#bd5d38;
+}
+
+/*SKILLS CSS*/
+
+.intro .skills
+{
+    font-family:  "Lucida Console", Courier, monospace;
+    color: #747070;
+    margin-top: 150px;
+}
+.intro .skills h2
+{
+    margin-left: 40px;
+    color: black;
+    font-size: 50px;
+}
+.intro .skills ul
+{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.intro .skills .list-items
+{
+    font-size: 20px;
+}
+
+/*Achivments CSS*/
+
+.intro .achivments
+{
+    font-family:  "Lucida Console", Courier, monospace;
+    color: #747070;
+    margin-top: 150px;
+}
+.intro .achivments h2
+{
+    margin-left: 40px;
+    color: black;
+    font-size: 50px;
+}
+.intro .achivments ul
+{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.intro .achivments .list-items
+{
+    font-size: 20px;
+}
+
+/*Projects CSS*/
+
+.intro .project
+{
+    font-family:  "Lucida Console", Courier, monospace;
+    color: #747070;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.intro .project h2
+{
+    color: black;
+    font-size: 50px;
+    
+}
+.intro .project h3
+{
+    display: inline;
+    color: black;
+    font-size: 30px;
+    
+}
+.intro .project h4
+{
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.intro .project h5
+{
+    margin-right: 40px;
+    text-align: justify;
+}
+
+/* Contact CSS */
+.intro .contact
+{
+    font-family:  "Lucida Console", Courier, monospace;
+    color: #747070;
+    
+    margin-top: 150px;
+}
+.intro .contact h2
+{
+    margin-left: 40px;
+    color: black;
+    font-size: 50px;
+    
+}
+.intro .contact ul
+{
+    margin-left:10px;
+    
+    list-style-type: none;
+    
+}
+.intro .contact ul .lis-items
+{
+    margin-top:5px;
+    font-size: 25px;
+    
+}
